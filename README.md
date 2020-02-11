@@ -6,7 +6,8 @@ This repo has a basic express app structure with testing.
 `npm install`
 
 ## Test
-`npm test`
+* Mocha/Chai/Sinon style tests can be run with: `npm test` and can be placed in the `/tests` directory.
+* Jest style tests can be run with: `npm run jest` and can be placed in the `/jest` directory.
 
 ## Start
 `npm start`
@@ -19,4 +20,5 @@ This repo has a basic express app structure with testing.
 * Query another API with superagent: https://github.com/visionmedia/superagent
 * Write integration tests with supertest: https://github.com/visionmedia/supertest
 * Write unit tests with chai: https://www.chaijs.com/
+* Write unit tests with jest: https://jestjs.io/en/
 * Add error middleware to express: https://expressjs.com/en/guide/error-handling.html
